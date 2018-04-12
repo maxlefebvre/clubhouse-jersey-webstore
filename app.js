@@ -31,8 +31,8 @@ var app = express();
 //Paypal configuration
 paypal.configure({
   'mode': 'sandbox', //sandbox or live
-  'client_id': 'AQ5EKLpuO_11N35iF0IytElAn-O2-FSZA8TbumX5GiQMdeNLiuzgwJKyBN4QRULdU_6aMoKXZVZYPiMe',
-  'client_secret': 'EPVkiSzRCka2kT31rCsAtxzVMinqo7Vi4cfTWQ87vhzjHQcURl54EtrVvX9ue6Kk3PWL5MXQR0qhrrjj'
+  'client_id': 'ID',  // Put API key here
+  'client_secret': 'SECRET' // Put API key here
 });
 
 // view engine setup
